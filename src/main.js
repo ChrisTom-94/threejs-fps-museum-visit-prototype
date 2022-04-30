@@ -137,7 +137,7 @@ let objects = [];
 // Victoria statue
 
 const victoriaMaterial = new THREE.MeshLambertMaterial({color: 0xdddddd});
-colladaLoader.load("../assets/models/victoire.dae",
+colladaLoader.load("/threejs-fps-museum-visit-prototype/assets/models/victoire.dae",
 	function(collada) {
 		const dae = collada.scene.children[0];
 		dae.material = victoriaMaterial;
@@ -166,11 +166,11 @@ colladaLoader.load("../assets/models/victoire.dae",
 const pictures = [
     {
         name: "Steve Jonson : Painting 1 - Source: Unsplash",
-        url: "../assets/textures/paintings/steve-johnson-1131910-unsplash.jpg"
+        url: "/threejs-fps-museum-visit-prototype/assets/textures/paintings/steve-johnson-1131910-unsplash.jpg"
     },
     {
         name: "Steve Jonson : Painting 2 - Source: Unsplash",
-        url: "../assets/textures/paintings/steve-johnson-1133776-unsplash.jpg"
+        url: "/threejs-fps-museum-visit-prototype/assets/textures/paintings/steve-johnson-1133776-unsplash.jpg"
     },
 ]
 
