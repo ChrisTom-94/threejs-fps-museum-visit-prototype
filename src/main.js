@@ -72,7 +72,7 @@ scene.add(pointLight);
 
 // ---------- Floor ---------- 
 
-const floorTexture = texturesLoader.load("../assets/textures/floor.png")
+const floorTexture = texturesLoader.load("/threejs-fps-museum-visit-prototype/assets/textures/floor.png")
 floorTexture.wrapS = THREE.RepeatWrapping;
 floorTexture.wrapT = THREE.RepeatWrapping;
 floorTexture.repeat.set( 10, 5 );
